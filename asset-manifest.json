@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/TechFirst/static/css/main.9534f40f.css",
-    "main.js": "/TechFirst/static/js/main.24fe6545.js",
+    "main.js": "/TechFirst/static/js/main.425caa4b.js",
     "static/media/logo.png": "/TechFirst/static/media/logo.cf6dd66fb816e209ae30.png",
     "index.html": "/TechFirst/index.html",
     "main.9534f40f.css.map": "/TechFirst/static/css/main.9534f40f.css.map",
-    "main.24fe6545.js.map": "/TechFirst/static/js/main.24fe6545.js.map"
+    "main.425caa4b.js.map": "/TechFirst/static/js/main.425caa4b.js.map"
   },
   "entrypoints": [
     "static/css/main.9534f40f.css",
-    "static/js/main.24fe6545.js"
+    "static/js/main.425caa4b.js"
   ]
 }
