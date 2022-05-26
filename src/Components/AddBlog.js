@@ -1,11 +1,8 @@
 import React from "react";
 import { Field, Form, Formik } from "formik";
 import * as Yup from "yup";
-import uuid from "react-uuid";
 import axios from "axios";
 import { url } from "../Utils/GetData";
-import { fileUp } from "../Utils/FileUpload";
-
 import styles from "../Styles/AddBlog/Add.module.scss";
 
 const addSchema = Yup.object().shape({
