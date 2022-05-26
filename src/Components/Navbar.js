@@ -10,7 +10,7 @@ function Navbar() {
       <nav className={styles.navContainer}>
         <ul className={styles.navbar}>
           <li className={styles.navbar_logo}>
-            <Link to="/TechFirst-PT/">
+            <Link to="/TechFirst/">
               <img
                 className={styles.navbar_logo__img}
                 src={logo}
@@ -21,10 +21,10 @@ function Navbar() {
           <li className={styles.navbar_menu}>
             <ul className={styles.navbar_menu__links}>
               <li>
-                <Link to="/TechFirst-PT/">Home</Link>
+                <Link to="/TechFirst/">Home</Link>
               </li>
               <li>
-                <Link to="/TechFirst-PT/Add">Add Entry</Link>
+                <Link to="/TechFirst/Add">Add Entry</Link>
               </li>
             </ul>
           </li>

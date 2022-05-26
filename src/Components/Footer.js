@@ -8,7 +8,7 @@ function Footer() {
     <footer className={styles.footerContainer}>
       <nav className={styles.footer}>
         <li className={styles.footer_logo}>
-          <Link to="/TechFirst-PT/">
+          <Link to="/TechFirst/">
             <img
               className={styles.footer_logo__img}
               src={logo}

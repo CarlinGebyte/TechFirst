@@ -32,7 +32,7 @@ function EditBlog({ modal, close }) {
         console.log(err);
       });
     handleClose();
-    navigate("/TechFirst-PT");
+    navigate("/TechFirst");
   };
   return (
     <div className={styles.containerModal}>

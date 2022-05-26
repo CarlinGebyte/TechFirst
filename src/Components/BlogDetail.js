@@ -23,7 +23,7 @@ function BlogDetail() {
   const handleDelete = (id) => {
     axios.delete(`${url}${id}`).then((res) => {
       console.log(res);
-      navigate("/TechFirst-PT/");
+      navigate("/TechFirst/");
     });
   };
   return (
@@ -50,7 +50,7 @@ function BlogDetail() {
               setModal(true);
             }}
           >
-            Editar
+            Edit
           </button>
           <button
             className={styles.body_buttons__delete}
@@ -59,7 +59,7 @@ function BlogDetail() {
               handleDelete(post.id);
             }}
           >
-            Eliminar
+            Delete
           </button>
         </div>
       </div>

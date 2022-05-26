@@ -11,10 +11,10 @@ function AppRoutes() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/TechFirst-PT/" element={<Home />} />
-        <Route path="/TechFirst-PT/Add" element={<AddBlog />} />
-        <Route path="/TechFirst-PT/Detail/:id" element={<BlogDetail />} />
-        <Route path="/*" element={<Navigate to="/TechFirst-PT/" />} />
+        <Route path="/TechFirst/" element={<Home />} />
+        <Route path="/TechFirst/Add" element={<AddBlog />} />
+        <Route path="/TechFirst/Detail/:id" element={<BlogDetail />} />
+        <Route path="/*" element={<Navigate to="/TechFirst/" />} />
       </Routes>
       <Footer />
     </BrowserRouter>
