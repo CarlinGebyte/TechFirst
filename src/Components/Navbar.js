@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/img/logo.png";
 
 import styles from "../Styles/Navbar/Nav.module.scss";
 
@@ -12,7 +13,7 @@ function Navbar() {
             <Link to="/TechFirst-PT/">
               <img
                 className={styles.navbar_logo__img}
-                src="https://flyclipart.com/thumb2/blog-blogger-blogspot-circle-gradient-media-social-media-icon-560984.png"
+                src={logo}
                 alt="Logo"
               />
             </Link>
