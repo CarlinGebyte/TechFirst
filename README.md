@@ -30,6 +30,27 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: This is for deployment of the project in the github pages**
 
+## Style-Guide
+
+**Color palette:**
+
+Navbars: 
+- Background: #293462
+- Background-developer: #333c83
+
+Text: 
+- Navbars: #333c83
+- Navbars-Hover: #ec9b3b
+
+Buttons:
+- Background-add-detail: #f7d716
+- Background-add-detail-Hover: #ec9b3b
+- Background-delete: #f24c4c
+- Background-delete-Hover: #ff1818
+
+## Deployment:
+- Deploy: https://carlingebyte.github.io/TechFirst/
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
